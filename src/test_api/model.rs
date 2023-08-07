@@ -1,4 +1,6 @@
+use serde::Deserialize;
+#[derive(Deserialize)]
 pub struct TestUser {
-    user_id: String,
-    name: String,
+    pub user_id: String,
+    pub name: String,
 }
